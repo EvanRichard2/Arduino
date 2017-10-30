@@ -17,17 +17,17 @@ Serial.print("finished turn");
 
 servoLeft.writeMicroseconds(1700); 
 servoRight.writeMicroseconds(1300);     // First start
-delay(3000);
+delay(3100);
 Serial.print("finished forward");
 
 servoRight.writeMicroseconds(1300);
 servoLeft.writeMicroseconds(1300);      //First left
-delay(520);
+delay(620);
 Serial.print("finished turn"); 
 
 servoRight.writeMicroseconds(1300);
 servoLeft.writeMicroseconds(1700);      // Second start
-delay(2800);
+delay(3000);
 Serial.print("finished forward");
 
 servoRight.writeMicroseconds(1700);     //First right
@@ -88,18 +88,17 @@ Serial.print("finished turn");
 
 servoRight.writeMicroseconds(1300);
 servoLeft.writeMicroseconds(1300);      //Second left
-delay(520);
+delay(620);
 Serial.print("finished turn"); 
 
 servoRight.writeMicroseconds(1300);   // Seventh start
 servoLeft.writeMicroseconds(1700);
-delay(29
-00);
+delay(2900);
 Serial.print("finished forward");
 
 servoRight.writeMicroseconds(1700);     //Second right
 servoLeft.writeMicroseconds(1700);
-delay(560);
+delay(580);
 Serial.print("finished turn"); 
 
 servoRight.writeMicroseconds(1300);
