@@ -39,46 +39,10 @@ delay(620);
 Serial.print("Finnished Right");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 servoleft.writeMicroseconds(1500);       //Stop
 servoright.writeMicroseconds(1500);
 delay(2000);
 Serial.print("Finnished Stop");
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
